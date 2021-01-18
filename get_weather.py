@@ -1,3 +1,5 @@
+# this one script is static for the oporto city
+
 import requests
 import json
 from win10toast import ToastNotifier
