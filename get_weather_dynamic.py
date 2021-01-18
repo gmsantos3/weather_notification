@@ -32,3 +32,6 @@ def get_weather():
 
 
 get_weather()
+input("Press enter to close program")
+
+
