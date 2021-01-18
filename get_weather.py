@@ -13,9 +13,8 @@ url = "https://api.openweathermap.org/data/2.5/weather?q=%s&appid=%s&units=metri
     city, api_key)
 
 response = requests.get(url)
-print(response)
 weather = dict(json.loads(response.text))
-print(str(weather) + '\n')
+
 
 with open('S:/Python/WeatherAp/data.txt', 'w+') as file:
     weather_info = file.write(json.dumps(weather))
